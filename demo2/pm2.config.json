@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "demo2",
+      "script": "./app.js",
+      "watch": false,
+      "ignore_watch": [
+        "node_modules"
+      ],
+      "instances": 1,
+      "exce_mode": "cluster",
+      "env": {
+        "DB_NAME": "demo_db"
+      }
+    }
+  ]
+}
